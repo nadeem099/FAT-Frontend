@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home, Classroom, VideoLectures } from "pages";
+import { Home, Classroom, VideoLectures, Course } from "pages";
 
 const Routing = () => {
   return (
@@ -10,6 +10,10 @@ const Routing = () => {
           <Route index element={<VideoLectures />} />
           <Route path="chat" element={<>chat</>} />
         </Route>
+        <Route
+          path=":username/courses/:coursename/learn/:content-type/:content-num"
+          element={<Course />}
+        ></Route>
       </Routes>
     </BrowserRouter>
   );

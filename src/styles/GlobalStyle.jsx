@@ -6,9 +6,16 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0px;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
   }
   body {
     font-family: Inter sans-serif;
-    color: gray
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #1c1d1f;
+  }
+  h1 {
+    font-size: 1rem;
   }
 `;

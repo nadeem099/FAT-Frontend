@@ -3,9 +3,14 @@ import {
   faFileVideo,
   faMessage,
   faCalendarXmark,
+  faStar,
 } from "@fortawesome/free-regular-svg-icons";
 import {
-  faPeopleGroup
+  faPeopleGroup,
+  faChevronDown,
+  faShare,
+  faEllipsisVertical,
+  faTrophy,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -13,4 +18,9 @@ library.add(
   faMessage,
   faCalendarXmark,
   faPeopleGroup,
+  faStar,
+  faChevronDown,
+  faShare,
+  faEllipsisVertical,
+  faTrophy
 );
